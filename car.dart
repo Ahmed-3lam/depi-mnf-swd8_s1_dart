@@ -14,4 +14,14 @@ class Car {
     this.name = jsonMap["name"];
     this.price = jsonMap["price"];
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      "id": this.id,
+      "name": this.name,
+      "price": this.price,
+    };
+  }
+
+  
 }
