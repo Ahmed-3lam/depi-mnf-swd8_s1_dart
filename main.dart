@@ -1,12 +1,22 @@
 import 'dart:io';
-import 'car.dart';
+import 'dart:math';
+
+import 'login.dart';
 import 'network_helper.dart';
 
 void main() async {
-
-
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
+  NetworkHelper.getInstance().fetchData("login");
 }
-
-
-
-/// Count the objects that were generated from a class
