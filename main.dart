@@ -1,22 +1,8 @@
-import 'dart:io';
-import 'dart:math';
-
-import 'login.dart';
-import 'network_helper.dart';
+import 'animal.dart';
 
 void main() async {
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
-  NetworkHelper.getInstance().fetchData("login");
+  Lion lion1 = Lion();
+  SpecificLion lion2 = SpecificLion();
+  lion1.eat();
+
 }
